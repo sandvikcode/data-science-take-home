@@ -60,7 +60,7 @@ The following are reference points that should be taken into account in the subm
 3. Which goodness of fit metrics have you chosen, and what do they tell you about the model(s) performance?
   1. Which model performs best?
   2. How would you decide between using a more sophisticated model versus a less complicated one?
-4. What kind of benefits do you think your model(s) could have as part of a enterprise application or service?
+4. What kind of benefits do you think your model(s) could have as part of an enterprise application or service?
 
 ## Submission
 
