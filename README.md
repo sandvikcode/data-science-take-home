@@ -12,14 +12,11 @@ Contrary to most online communities that share data sets for data science, machi
 This dataset is used to identify a voice as male or female, based upon certain properties of voice and speech. The dataset consists of 62,440 recorded voice samples, collected from male and female speakers. 
 
 ### Overview
-Total size of the dataset is approximately 12.5 GB once uncompressed. File format is .wav, sampling rate 16kHz and bitrate 16-bit.
-
-### Source URL
-The dataset can be found [here][2]. 
+Total size of the dataset is approximately 12.5 GB once uncompressed. File format is .wav, sampling rate 16kHz and bitrate 16-bit. The dataset can be found [here][2]. 
 
 ### Data
 Feel free to utilize any programming language, tool, method or skillset to solve the challenge to the best of your abilities. However, we do recommend taking the following steps:
-1. Use scraping techniques to obtain data from dataset URL, make sure to explore it in detail 
+1. Use scraping techniques to obtain data from the dataset URL, making sure to explore data in detail 
 2. Pre-process data using R packages, such as WarbleR, TuneR, seewave or equivalent
 -- Consider analyzing a particularly important frequency range of **0Hz-280Hz** ([human vocal range][1])
 3. Determine potentially interesting features, such as:
