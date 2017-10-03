@@ -1,39 +1,35 @@
 # Data Science Take Home Assignment
 Data Science Take Home Assignments used in Sandvik CODE's recruitment process.
 
-## HUGO: Introduction
+## Introduction
 
 Welcome to Sandvik CODE's take-home assignment repository, part of our data science recruitment process. The following assignment will let you extract, explore and analyze audio data from English speaking male and females, and build learning models aimed to predict a given person's gender using vocal features, such as mean frequency, spectral entropy or mode frequency.
 
-Contrary to most online communities that share data sets for data science, machine learning and artificial intelligence applications, readymade datasets rarely exist out in the wild, and you will have to explore one or more ways of downloading and extracting meaningful features from a raw data set containing thousands of individual audio files. The assignment is designed to test your ability to tackle the full range of responsibilities you will have as a data scientist at Sandvik CODE.
+Contrary to most online communities that share datasets for data science, machine learning and artificial intelligence applications, readymade datasets rarely exist out in the wild, and you will have to explore one or more ways of downloading and extracting meaningful features from a raw dataset containing thousands of individual audio files. The assignment is designed to test your ability to tackle the full range of responsibilities you will have as a data scientist at Sandvik CODE.
 
-## VANJA: Dataset
+## Dataset
 
-This dataset is used to identify a voice as male or female, based upon certain properties of voice and speech. The dataset consists of 62,440 recorded voice samples, collected from male and female speakers. 
+The raw data consists of 62,440 audio samples of male and female speakers speaking in short English sentences. The raw data has been downsampled from 44.1kHz. Total size of the dataset is approximately 12.5 GB once it has been uncompressed. The file format is `.wav` with a sampling rate of 16kHz and a bit depth of 16-bit. The raw dataset can be found **[here][2]**.
 
-### Overview
-Total size of the dataset is approximately 12.5 GB once uncompressed. File format is .wav, sampling rate 16kHz and bitrate 16-bit. The dataset can be found [here][2]. 
+We recommend that you follow a data pre-processing procedure along the following lines:
 
-### Data
-Feel free to utilize any programming language, tool, method or skillset to solve the challenge to the best of your abilities. However, we do recommend taking the following steps:
-1. Use scraping techniques to obtain data from the dataset URL, making sure to explore data in detail 
-2. Pre-process data using R packages, such as WarbleR, TuneR, seewave or equivalent
--- Consider analyzing a particularly important frequency range of **0Hz-280Hz** ([human vocal range][1])
-3. Determine potentially interesting features, such as:
-  - **meanfreq**: mean frequency (in kHz)
-  - **sd**: standard deviation of frequency
-  - **median**: median frequency (in kHz)
-  - **Q25**: first quantile (in kHz)
-  - **Q75**: third quantile (in kHz)
-  - **IQR**: interquantile range (in kHz)
-  - **skew**: skewness (see note in specprop description)
-  - **kurt**: kurtosis (see note in specprop description)
-  - **mode**: mode frequency
-  - **peakf**: peak frequency (frequency with highest energy)
+1. Automate the raw data download using web scraping techniques
+2. Pre-process data using audio signal processing packages such as [WarbleR](https://cran.r-project.org/web/packages/warbleR/vignettes/warbleR_workflow.html), [TuneR](https://cran.r-project.org/web/packages/tuneR/index.html), [seewave](https://cran.r-project.org/web/packages/seewave/index.html) for R, or similar packages for other programming languages
+3. Consider, in particular, the ([human vocal range][1]), which typically resides within the range of **0Hz-280Hz**
+3. To help you on your way to identify potentially interesting features, consider the following (non-exhaustive) list:
+  - Mean frequency (in kHz)
+  - Standard deviation of frequency
+  - Median frequency (in kHz)
+  - First quantile (in kHz)
+  - Third quantile (in kHz)
+  - Inter-quantile range (in kHz)
+  - Skewness
+  - Kurtosis
+  - Mode frequency
+  - Peak frequency
 
   [1]: https://en.wikipedia.org/wiki/Voice_frequency#Fundamental_frequency
   [2]: http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/Audio/Main/16kHz_16bit/
-
 
 ## Question Set
 
@@ -62,7 +58,7 @@ You have **7 days** to complete the assignment from the time that you have recei
 
 A 3 to 5 page presentation, in **HTML or PDF format**, that clearly and succinctly walks us through your approach to extracting features, exploring them, uncovering any potential constraints or issues with the data in its provided form, your choice of predictive models and your analysis of the models' performance.
 
-A good presentation presents potential caveats, findings and insights about the data set and an analysis of the goodness of fit metrics, including benchmarking on the performance of different learning models.
+A good presentation presents potential caveats, findings and insights about the dataset and an analysis of the goodness of fit metrics, including benchmarking on the performance of different learning models.
 
 A great presentation tells a visual, potentially even interactive, story about the data and how specific insights can be used to guide our product development so that non-technical colleagues can understand and act upon them.
 
