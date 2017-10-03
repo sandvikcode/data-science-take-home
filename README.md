@@ -5,11 +5,11 @@ Data Science Take Home Assignments used in Sandvik CODE's recruitment process.
 
 Welcome to Sandvik CODE's take-home assignment repository, part of our data science recruitment process. The following assignment will let you extract, explore and analyze audio data from English speaking male and females, and build learning models aimed to predict a given person's gender using vocal features, such as mean frequency, spectral entropy or mode frequency.
 
-Contrary to most online communities that share datasets for data science, machine learning and artificial intelligence applications, readymade datasets rarely exist out in the wild, and you will have to explore one or more ways of downloading and extracting meaningful features from a raw dataset containing thousands of individual audio files. The assignment is designed to test your ability to tackle the full range of responsibilities you will have as a data scientist at Sandvik CODE.
+Contrary to most online communities that share datasets for data science, machine learning and artificial intelligence applications, readymade datasets rarely exist out in the wild, and you will have to explore one or more ways of downloading and extracting meaningful features from a raw dataset containing thousands of individual audio files. The assignment is designed to test your ability to tackle the full range of responsibilities you will have as a Data Scientist at Sandvik CODE.
 
 ## Dataset
 
-The raw data consists of 62,440 audio samples of male and female speakers speaking in short English sentences. The raw data is compressed using `.tgz` files. Each `.tgz` compressed file contain the following directory structure and files:
+The raw data consists of 62,440 audio samples of male and female speakers speaking in short English sentences. The raw data is compressed using `.tgz` files. Each `.tgz` compressed file contains the following directory structure and files:
 
 - `<file>/`
   - `etc/`
@@ -26,11 +26,11 @@ The raw data consists of 62,440 audio samples of male and female speakers speaki
 
 The total size of the raw dataset is approximately 12.5 GB once it has been uncompressed. The file format is `.wav` with a sampling rate of 16kHz and a bit depth of 16-bit. The raw dataset can be found **[here][2]**.
 
-We recommend that consider the following for your data pre-processing:
+We recommend considering the following for your data pre-processing:
 
 1. Automate the raw data download using web scraping techniques
 2. Pre-process data using audio signal processing packages such as [WarbleR](https://cran.r-project.org/web/packages/warbleR/vignettes/warbleR_workflow.html), [TuneR](https://cran.r-project.org/web/packages/tuneR/index.html), [seewave](https://cran.r-project.org/web/packages/seewave/index.html) for R, or similar packages for other programming languages
-3. Consider, in particular, the ([human vocal range][1]), which typically resides within the range of **0Hz-280Hz**
+3. Consider, in particular, the [human vocal range][1], which typically resides within the range of **0Hz-280Hz**
 3. To help you on your way to identify potentially interesting features, consider the following (non-exhaustive) list:
   - Mean frequency (in kHz)
   - Standard deviation of frequency
@@ -88,7 +88,7 @@ By accepting this take-home assignment, you are actively choosing to abide to th
 
 ## Frequently Asked Questions
 
-1. **Can I use <Insert SDK or Framework here> for the take home assignment?**
+1. **Can I use &lt;Insert SDK or Framework here&gt; for the take home assignment?**
   > **Answer:** Yes, you are free to make use of the tools that you are most comfortable working with. We work with a mix of frameworks, and try to use the one best fit for the task at hand.
 2. **Where do I send my assignment upon completion?**
   > **Answer:** You should have received an email with instructions about this take home assignment that led you to this repo. If you have been invited to the take home assignment, but haven't received an email, please email us at *digitaljobs[at]sandvik.com*.
