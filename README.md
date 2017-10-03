@@ -15,7 +15,8 @@ This dataset is used to identify a voice as male or female, based upon certain p
 Total size of the dataset is approximately 12.5 GB once uncompressed. File format is .wav, sampling rate 16kHz and bitrate 16-bit.
 
 ### Source URL
-The dataset can be found here - http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/Audio/Main/16kHz_16bit/.
+The dataset can be found here:
+http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/Audio/Main/16kHz_16bit/
 
 ### Data
 Feel free to utilize any programming language, tool, method or skillset to solve the challenge to the best of your abilities. However, we do recommend taking the following steps:
