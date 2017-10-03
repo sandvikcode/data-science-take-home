@@ -23,16 +23,16 @@ Feel free to utilize any programming language, tool, method or skillset to solve
 2. Pre-process data using R packages, such as WarbleR, TuneR, seewave or equivalent
 -- Consider analyzing a particularly important frequency range of **0Hz-280Hz** ([human vocal range][1])
 3. Determine potentially interesting features, such as:
--- **meanfreq**: mean frequency (in kHz)
--- **sd**: standard deviation of frequency
--- **median**: median frequency (in kHz)
--- **Q25**: first quantile (in kHz)
--- **Q75**: third quantile (in kHz)
--- **IQR**: interquantile range (in kHz)
--- **skew**: skewness (see note in specprop description)
--- **kurt**: kurtosis (see note in specprop description)
--- **mode**: mode frequency
--- **peakf**: peak frequency (frequency with highest energy)
+  - **meanfreq**: mean frequency (in kHz)
+  - **sd**: standard deviation of frequency
+  - **median**: median frequency (in kHz)
+  - **Q25**: first quantile (in kHz)
+  - **Q75**: third quantile (in kHz)
+  - **IQR**: interquantile range (in kHz)
+  - **skew**: skewness (see note in specprop description)
+  - **kurt**: kurtosis (see note in specprop description)
+  - **mode**: mode frequency
+  - **peakf**: peak frequency (frequency with highest energy)
 
   [1]: https://en.wikipedia.org/wiki/Voice_frequency#Fundamental_frequency
 
