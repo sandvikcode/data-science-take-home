@@ -9,9 +9,24 @@ Contrary to most online communities that share datasets for data science, machin
 
 ## Dataset
 
-The raw data consists of 62,440 audio samples of male and female speakers speaking in short English sentences. The raw data has been downsampled from 44.1kHz. Total size of the dataset is approximately 12.5 GB once it has been uncompressed. The file format is `.wav` with a sampling rate of 16kHz and a bit depth of 16-bit. The raw dataset can be found **[here][2]**.
+The raw data consists of 62,440 audio samples of male and female speakers speaking in short English sentences. The raw data is compressed using `.tgz` files. Each `.tgz` compressed file contain the following directory structure and files:
 
-We recommend that you follow a data pre-processing procedure along the following lines:
+- `<file>/`
+  - `etc/`
+    - `GPL_license.txt`
+    - `HDMan_log`
+    - `HVite_log`
+    - `Julius_log`
+    - `PROMPTS`
+    - `prompts-original`
+    - `README`
+  - `LICENSE`
+  - `wav/`
+    - 10 unique `.wav` audio files
+
+The total size of the raw dataset is approximately 12.5 GB once it has been uncompressed. The file format is `.wav` with a sampling rate of 16kHz and a bit depth of 16-bit. The raw dataset can be found **[here][2]**.
+
+We recommend that consider the following for your data pre-processing:
 
 1. Automate the raw data download using web scraping techniques
 2. Pre-process data using audio signal processing packages such as [WarbleR](https://cran.r-project.org/web/packages/warbleR/vignettes/warbleR_workflow.html), [TuneR](https://cran.r-project.org/web/packages/tuneR/index.html), [seewave](https://cran.r-project.org/web/packages/seewave/index.html) for R, or similar packages for other programming languages
@@ -27,6 +42,7 @@ We recommend that you follow a data pre-processing procedure along the following
   - Kurtosis
   - Mode frequency
   - Peak frequency
+4. Make sure to check out all of the files in the raw data, you might find valuable data in files beyond the audio ones
 
   [1]: https://en.wikipedia.org/wiki/Voice_frequency#Fundamental_frequency
   [2]: http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/Audio/Main/16kHz_16bit/
@@ -52,7 +68,7 @@ The following are reference points that should be taken into account in the subm
 
 You have **7 days** to complete the assignment from the time that you have received the email containing the link to this GitHub repository.
 
-> **Note:** Your submission will be judged with this timeframe in mind, and that we do not expect the equivalent of a month's worth of work.
+> **Note:** Your submission will be judged with this timeframe in mind, and we do not expect the equivalent of a month's worth of work.
 
 ### Requirements
 
