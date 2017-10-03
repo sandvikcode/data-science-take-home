@@ -7,13 +7,35 @@ Welcome to Sandvik CODE's take-home assignment repository, part of our data scie
 
 Contrary to most online communities that share data sets for data science, machine learning and artificial intelligence applications, readymade datasets rarely exist out in the wild, and you will have to explore one or more ways of downloading and extracting meaningful features from a raw data set containing thousands of individual audio files. The assignment is designed to test your ability to tackle the full range of responsibilities you will have as a data scientist at Sandvik CODE.
 
-## VANJA: Data Set
-> Note:
-> 1. Overview of raw data: e.g. number of files, size, split between males and females, file format and so on
-> 2. Link to the raw data, including source attribution (NOT Kaggle)
-> 3. Example of pre-processing frameworks and packages, e.g. WarbleR, seewave or TuneR for R, or equivalent for Python etc
-> 4. Make a note that manually downloading the data might not be appropriate (e.g. a scraper might be useful)
-> 5. Give a few examples of extracted features that might be interesting to use in building a machine learning model
+## VANJA: Dataset
+
+This dataset is used to identify a voice as male or female, based upon certain properties of voice and speech. The dataset consists of 62,440 recorded voice samples, collected from male and female speakers. 
+
+### Overview
+Total size of the dataset is approximately 12.5 GB once uncompressed. File format is .wav, sampling rate 16kHz and bitrate 16-bit.
+
+### Source URL
+The dataset can be found here - http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/Audio/Main/16kHz_16bit/.
+
+### Data
+Feel free to utilize any programming language, tool, method or skillset to solve the challenge to the best of your abilities. However, we do recommend taking the following steps:
+1. Use scraping techniques to obtain data from dataset URL, make sure to explore it in detail 
+2. Pre-process data using R packages, such as WarbleR, TuneR, seewave or equivalent
+-- Consider analyzing a particularly important frequency range of **0Hz-280Hz** ([human vocal range][1])
+3. Determine potentially interesting features, such as:
+-- **meanfreq**: mean frequency (in kHz)
+-- **sd**: standard deviation of frequency
+-- **median**: median frequency (in kHz)
+-- **Q25**: first quantile (in kHz)
+-- **Q75**: third quantile (in kHz)
+-- **IQR**: interquantile range (in kHz)
+-- **skew**: skewness (see note in specprop description)
+-- **kurt**: kurtosis (see note in specprop description)
+-- **mode**: mode frequency
+-- **peakf**: peak frequency (frequency with highest energy)
+
+  [1]: https://en.wikipedia.org/wiki/Voice_frequency#Fundamental_frequency
+
 
 ## Question Set
 
