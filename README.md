@@ -66,7 +66,7 @@ The following are reference points that should be taken into account in the subm
 
 ### Deadline
 
-You have **7 days** to complete the assignment from the time that you have received the email containing the link to this GitHub repository.
+You have **10 days** to complete the assignment from the time that you have received the email containing the link to this GitHub repository.
 
 > **Note:** Your submission will be judged with this timeframe in mind, and we do not expect the equivalent of a month's worth of work.
 
