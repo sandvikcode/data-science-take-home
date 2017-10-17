@@ -92,3 +92,5 @@ By accepting this take-home assignment, you are actively choosing to abide to th
   > **Answer:** Yes, you are free to make use of the tools that you are most comfortable working with. We work with a mix of frameworks, and try to use the one best fit for the task at hand.
 2. **Where do I send my assignment upon completion?**
   > **Answer:** You should have received an email with instructions about this take home assignment that led you to this repo. If you have been invited to the take home assignment, but haven't received an email, please email us at *digitaljobs[at]sandvik.com*.
+3. **The raw data is too large to fit in memory, what do I do?**
+  > **Answer:** This is part of the challenge, and the dataset is by design larger than can fit in memory for a normal computer. You will have to come up with a solution that enables processing of the data in a batch-like, or streaming, fashion, to extract meaningful features.
