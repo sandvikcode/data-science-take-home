@@ -78,6 +78,10 @@ A good presentation presents potential caveats, findings and insights about the 
 
 A great presentation tells a visual, potentially even interactive, story about the data and how specific insights can be used to guide our product development so that non-technical colleagues can understand and act upon them.
 
+Please send your presentation (see *Requirements* below)to **digitaljobs [at] sandvik.com**, with it as an attachment, or provide us with a link to where you've uploaded your work (in case of a private git repository, server or similar).
+
+Happy coding!
+
 ## Code of Conduct
 
 At Sandvik CODE, we give the people we hire a high level of autonomy in how they want to work, and value personal integrity highly. This autonomy only works if we can trust our colleagues to be honest about the work they are responsible for and the results they achieve. We trust that you do not collaborate with other people as part of this assignment, nor that you make use of readymade machine learning models without being able to properly argue for why they are applicable. The same goes for your choice of features and understanding of what type of information they provide.
@@ -94,3 +98,5 @@ By accepting this take-home assignment, you are actively choosing to abide to th
   > **Answer:** You should have received an email with instructions about this take home assignment that led you to this repo. If you have been invited to the take home assignment, but haven't received an email, please email us at *digitaljobs[at]sandvik.com*.
 3. **The raw data is too large to fit in memory, what do I do?**
   > **Answer:** This is part of the challenge, and the dataset is by design larger than can fit in memory for a normal computer. You will have to come up with a solution that enables processing of the data in a batch-like, or streaming, fashion, to extract meaningful features.
+4. **Where do I send my presentation of my results?**
+  > **Answer:** Please send it to **digitaljobs [at] sandvik.com**. In case you've uploaded your work to a git repository, whether on GitHub or elsewhere, please invite us to it for evaluation.
