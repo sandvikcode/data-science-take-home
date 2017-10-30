@@ -72,7 +72,7 @@ You have **10 days** to complete the assignment from the time that you have rece
 
 ### Requirements
 
-A 3 to 5 page presentation, in **HTML or PDF format**, that clearly and succinctly walks us through your approach to extracting features, exploring them, uncovering any potential constraints or issues with the data in its provided form, your choice of predictive models and your analysis of the models' performance.
+A written presentation, in **HTML or PDF format**, that clearly and succinctly walks us through your approach to extracting features, exploring them, uncovering any potential constraints or issues with the data in its provided form, your choice of predictive models and your analysis of the models' performance. Try to keep it concise.
 
 A good presentation presents potential caveats, findings and insights about the dataset and an analysis of the goodness of fit metrics, including benchmarking on the performance of different learning models.
 
