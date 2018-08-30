@@ -9,7 +9,7 @@ Contrary to most online communities that share datasets for data science, machin
 
 ## Dataset
 
-The raw data consists of 62,440 audio samples of male and female speakers speaking in short English sentences. The raw data is compressed using `.tgz` files. Each `.tgz` compressed file contains the following directory structure and files:
+The raw data consists of, as of 30th August 2018, 95,481 audio samples of male and female speakers speaking in short English sentences. The raw data is compressed using `.tgz` files. Each `.tgz` compressed file contains the following directory structure and files:
 
 - `<file>/`
   - `etc/`
